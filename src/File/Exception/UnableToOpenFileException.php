@@ -1,7 +1,7 @@
 <?php
 namespace File\Exception;
 
-use ppa-devs\Ddd\Domain\Exception\DomainException;
+use ppadevs\Ddd\Domain\Exception\DomainException;
 
 class UnableToOpenFileException extends DomainException{
 	
