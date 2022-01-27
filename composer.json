@@ -1,14 +1,13 @@
 {
-  "name": "dadeky/file",
+  "name": "PPADevs/file",
   "description": "Library for file manipulation.",
   "authors": [
     {
-      "name": "Darko Dvorski",
-      "email": "dadeky@gmail.com",
-      "role": "Developer"
+      "name": "PPADevs",
+      "role": "Developers"
     }
   ],
-  "homepage": "https://github.com/dadeky/file",
+  "homepage": "https://github.com/PPADevs/file",
   "license": "BSD-2-Clause",
   "keywords": [
     "file"
@@ -17,9 +16,9 @@
     "sort-packages": true
   },
   "require": {
-    "php": ">=5.5",
-    "dadeky/ddd": "^1.0",
-    "symfony/filesystem": "4.0.*"
+    "php": ">=7.4",
+    "PPADevs/ddd": "^1.0",
+    "symfony/filesystem": ">=4.0"
   },
   "autoload": {
     "psr-4": {
