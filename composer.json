@@ -1,13 +1,13 @@
 {
-  "name": "PPADevs/file",
+  "name": "ppa-devs/file",
   "description": "Library for file manipulation.",
   "authors": [
     {
-      "name": "PPADevs",
+      "name": "ppa-devs",
       "role": "Developers"
     }
   ],
-  "homepage": "https://github.com/PPADevs/file",
+  "homepage": "https://github.com/ppa-devs/file",
   "license": "BSD-2-Clause",
   "keywords": [
     "file"
@@ -17,17 +17,12 @@
   },
   "require": {
     "php": ">=7.4",
-    "PPADevs/ddd": "^1.0",
+    "ppa-devs/ddd": ">=2.1",
     "symfony/filesystem": ">=4.0"
   },
   "autoload": {
     "psr-4": {
       "File\\": "src/File"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "File\\Tests\\": "tests/File/Tests"
     }
   }
 }
