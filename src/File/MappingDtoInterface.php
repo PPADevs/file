@@ -8,8 +8,7 @@ interface MappingDtoInterface
      * For example if the $index argument is 3 the setter name which
      * corresponds to index 3 is returned and called in the ParserService to set the value in the DTO
      * @param integer $index an index of a setter
-     * @return string
+     * @return string|null
      */
-    public function getMappingSetter($index);
+    public function getMappingSetter(int $index);
 }
-

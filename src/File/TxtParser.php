@@ -19,8 +19,8 @@ class TxtParser
                     $object = clone $mappingDto;
                     foreach ($lineDataArray as $key => $value)
                     {
-                        $methodName = $mappingDto->getMappingSetter($key);
-                        if (method_exists($object, $methodName))
+                        $methodName = $mappingDto->getMappingSetter((int)$key);
+                        if ($methodName != null && method_exists($object, $methodName))
                         {
                             $object->{ $methodName }($value);
                         }
